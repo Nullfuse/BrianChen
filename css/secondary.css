@@ -1,0 +1,166 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #303130;
+}
+
+
+
+header {
+  padding: 20px 0;
+}
+
+/* nav link */
+nav p, nav p:visited {
+  color: rgb(26, 188, 156);
+}
+
+/* selected nav link */
+nav p.selected, nav p:hover {
+  color: #303130;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-color: #303130;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-color: #303130;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-color: #303130;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://cdn.discordapp.com/attachments/331955184496279572/774724378213482526/color_303130.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 2000px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+.btn.btn-primary {
+  border-radius: 0px;
+  border: 3px solid white;
+  color: white;
+  font-size: 30px;
+  text-shadow: none;
+  background-color: transparent;
+  width: 190px;
+  height: 62px;
+}
+
+.btn.btn-primary:hover {
+  border-color: rgb(26, 188, 156);
+  background-color: transparent;
+}
+
+.btn.btn-primary:active {
+  border-color: rgb(26, 188, 156);
+  background-color: transparent;
+  color: rgb(26, 188, 156);
+}
+
+.btn.btn-primary:focus {
+  border-color: rgb(26, 188, 156);
+  background-color: transparent;
+  color: rgb(26, 188, 156);
+}
+
+.btn.btn-primary:visited {
+  border-color: rgb(26, 188, 156);
+  background-color: #303130;
+  color: rgb(26, 188, 156);
+}
+
+.btn-secondary {
+  border: rgb(26, 188, 156);
+  background-color: rgb(26, 188, 156);
+  color: #ffffff;
+  margin: 5px;
+}
+
+.btn-third {
+  border: rgb(26, 188, 156);
+  background-color: #ffffff;
+  color: rgb(26, 188, 156);
+  margin: 5px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  font-color: #303130;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+  font-color: #303130;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr.new1 {
+  border-top: 1px #303130;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  color: white;
+
+  padding-left: 3%;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  color: white;
+
+  padding-left: 5%;
+}
+
+
