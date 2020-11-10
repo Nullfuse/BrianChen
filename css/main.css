@@ -4,20 +4,8 @@ body {
   background-color: #303130;
 }
 
-
-
 header {
   padding: 20px 0;
-}
-
-/* nav link */
-nav p, nav p:visited {
-  color: rgb(26, 188, 156);
-}
-
-/* selected nav link */
-nav p.selected, nav p:hover {
-  color: #303130;
 }
 
 header .row,
@@ -50,7 +38,7 @@ header p {
   background-image: url('https://cdn.discordapp.com/attachments/331955184496279572/774724378213482526/color_303130.png');
   background-size: cover;
   color: #ffffff;
-  height: 2000px;
+  height: 775px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -97,16 +85,8 @@ header p {
   border: rgb(26, 188, 156);
   background-color: rgb(26, 188, 156);
   color: #ffffff;
-  margin: 5px;
+  margin: 0 0 30px;
 }
-
-.btn-third {
-  border: rgb(26, 188, 156);
-  background-color: #ffffff;
-  color: rgb(26, 188, 156);
-  margin: 5px;
-}
-
 
 footer {
   font-size: 12px;
@@ -128,39 +108,3 @@ footer li img {
   width: 32px;
   height: 32px;
 }
-
-
-.column {
-  float: left;
-  width: 50%;
-  color: white;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-hr.new1 {
-  border-top: 1px #303130;
-}
-
-.column2 {
-  float: left;
-  width: 50%;
-  color: white;
-
-  padding-left: 3%;
-}
-
-.column3 {
-  float: left;
-  width: 50%;
-  color: white;
-
-  padding-left: 5%;
-}
-
-
