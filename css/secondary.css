@@ -17,7 +17,7 @@ nav p, nav p:visited {
 
 /* selected nav link */
 nav p.selected, nav p:hover {
-  color: #303130;
+  color: #FFFFFF;
 }
 
 header .row,
@@ -47,7 +47,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://cdn.discordapp.com/attachments/331955184496279572/774724378213482526/color_303130.png');
+  background-image: url('assets/color 303130.png');
   background-size: cover;
   color: #ffffff;
   height: 2000px;
