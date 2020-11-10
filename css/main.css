@@ -91,13 +91,13 @@ header p {
 footer {
   font-size: 12px;
   padding: 20px 0;
-  font-color: #FFFFFF;
+  font-color: #303130;
 }
 
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
-  font-color: #FFFFFF;
+  font-color: #303130;
 }
 
 footer ul {
