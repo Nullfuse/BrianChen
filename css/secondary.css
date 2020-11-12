@@ -11,12 +11,12 @@ header {
 }
 
 /* nav link */
-nav p, nav p:visited {
+nav a, nav a:visited {
   color: rgb(26, 188, 156);
 }
 
 /* selected nav link */
-nav p.selected, nav p:hover {
+nav a.selected, nav a:hover {
   color: #FFFFFF;
 }
 
@@ -37,7 +37,7 @@ header nav {
   font-color: #303130;
 }
 
-header p {
+header a {
   padding: 0 20px;
   margin: 0;
   font-color: #303130;
