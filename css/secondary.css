@@ -92,14 +92,14 @@ header a {
   color: rgb(26, 188, 156);
 }
 
-.btn-secondary {
+.btn-secondary:disabled {
   border: rgb(26, 188, 156);
   background-color: rgb(26, 188, 156);
   color: #ffffff;
   margin: 5px;
 }
 
-.btn-third {
+.btn-third:disabled {
   border: rgb(26, 188, 156);
   background-color: #ffffff;
   color: rgb(26, 188, 156);
